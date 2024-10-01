@@ -1,0 +1,36 @@
+:root {
+    --background-color: #123123;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    background: var(--background-color);
+}
+
+input {
+    font-family:'Courier New', Courier, monospace;
+    max-width: 300px;
+    width:6ch;
+    font-size: 50px;
+    border: none;
+    background-color: rgba(0, 0 , 0, 0.3);
+    color: white;
+    outline:none;
+    padding: 5px;
+    padding-right:10px;
+}
+
+#hashtag {
+    font-family:'Courier New', Courier, monospace;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-size: 50px;
+    background-color: rgba(0,0,0,0.3);
+
+}
